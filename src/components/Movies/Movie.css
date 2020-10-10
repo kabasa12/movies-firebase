@@ -1,0 +1,33 @@
+@media (min-width: 960px){
+.lazyload-wrapper{
+    padding: 16px;
+    flex-grow: 0;
+    max-width: 33.333333%;
+    flex-basis: 33.333333%;
+    }
+}
+.oneMovie{
+    padding: 16px;
+    flex-grow: 0;
+    max-width: 83.333333%;
+    flex-basis: 83.333333%;
+    margin: auto;
+}
+
+@media (min-width: 600px) and (max-width: 959px) {
+.lazyload-wrapper{
+    padding: 16px;
+    flex-grow: 0;
+    max-width: 50%;
+    flex-basis: 50%;
+    } 
+}
+
+@media (max-width: 599px) {
+.lazyload-wrapper{
+    padding: 16px;
+    flex-grow: 0;
+    max-width: 100%;
+    flex-basis: 100%;
+    } 
+}
